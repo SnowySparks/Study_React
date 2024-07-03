@@ -41,3 +41,9 @@ ReactDOM.render(
   document.getElementById("root")
 );
 ```
+
+---
+
+# 배포
+
+Github Page 이용
