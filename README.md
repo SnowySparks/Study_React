@@ -7,6 +7,12 @@ React를 공부하는 파일 모음
 - 17_0_2 Base : 노마드코더 기초 리엑트 강의를 통한 공부
 - 18 : Ubase강의를 통한 강의 학습
 
+## 환경
+
+CRA
+React v17.0.2
+React-Router-Dom v5
+
 ## 17환경 설정
 
 18 환경은 17 환경과 달라 다음과 같은 설정이 필요  
@@ -47,3 +53,18 @@ ReactDOM.render(
 # 배포
 
 Github Page 이용
+
+```json
+// package.json
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+
+  "homepage": "https://깃헙아이디.github.io/해당레포지토리이름"
+
+```
